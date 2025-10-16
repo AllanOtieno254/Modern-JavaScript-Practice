@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>interacting with browser</h1>
+
+    <h2>Document Object Model (DOM)</h2>
+    <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.</p>
+    <p>With the DOM, JavaScript can access and change all the elements of an HTML document.</p>
+    <p>The DOM is not part of the JavaScript language, but it is a web standard that JavaScript can use to interact with the browser.</p>
+    <p>Every element in an HTML document is a node. The document itself is a document node, which is the parent of all other nodes. The document node has a child node called the html node, which is the parent of the head and body nodes.</p>
+    <p>Each node in the DOM tree can have child nodes, which can have their own child nodes, and so on. This creates a hierarchical structure that represents the document.</p>
+    <p>JavaScript can use the DOM to access and manipulate the elements of an HTML
+    document. For example, JavaScript can change the text of a paragraph, add or remove elements from the document, and change the style of an element.</p>
+    <p>To interact with the DOM, JavaScript uses a set of methods and properties. Some of the most commonly used methods include:</p>
+    <ul>
+        <li>getElementById(): This method returns the element with the specified ID.</li>
+        <li>getElementsByClassName(): This method returns a collection of elements with the specified class name.</li>
+        <li>getElementsByTagName(): This method returns a collection of elements with the specified tag name.</li>
+        <li>querySelector(): This method returns the first element that matches a specified CSS selector.</li>
+        <li>querySelectorAll(): This method returns a collection of all elements that match a specified CSS selector.</li>
+    </ul>
+    <p>Some of the most commonly used properties include:</p>
+    <ul>
+        <li>innerHTML: This property gets or sets the HTML content of an element.</li>
+        <li>textContent: This property gets or sets the text content of an element.</li>
+        <li>style: This property gets or sets the inline style of an element.</li>
+        <li>className: This property gets or sets the class name of an element.</li>
+        <li>id: This property gets or sets the ID of an element.</li>
+    </ul>
+    <p>By using these methods and properties, JavaScript can interact with the DOM to create dynamic and interactive web pages.</p>
+    <p>For example, the following code changes the text of a paragraph with the ID "myParagraph":</p>
+    <pre><code>document.getElementById("myParagraph").innerHTML = "Hello, World!";</code></pre>
+    <p>This code selects the paragraph with the ID "myParagraph" and changes its HTML content to "Hello, World!".</p>
+    <p>Overall, the DOM is a powerful tool that allows JavaScript to interact with web documents and create dynamic and interactive web pages.</p>
+    <script src="script4.js"></script>
+</body>
+</html>
